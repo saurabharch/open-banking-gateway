@@ -6,6 +6,7 @@ import de.adorsys.opba.tppbankingapi.BaseMockitoTest;
 import de.adorsys.opba.tppbankingapi.dto.TestResult;
 import de.adorsys.opba.tppbankingapi.services.StatisticService;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.jetbrains.annotations.NotNull;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +15,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
-import org.testcontainers.shaded.org.apache.commons.lang.RandomStringUtils;
 
 import java.time.Instant;
 import java.util.ArrayList;
